@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 2em;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    flex-direction: column;
+}
+
+#quote-box {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    margin: 2em;
+    padding: 2em;
+    display: table;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.text-box {
+    display: flex;
+}
+
+#author {
+    clear: both;
+    padding-top: 20px;
+    font-size: 1rem;
+    text-align: right;
+    font-weight: 400;
+    color: #555;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #555;
+    font-size: 0.85em;
+    padding: 0.75em 1em 0.5em 1em;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#tumblr-quote {
+    margin-right: auto;
+    margin-left: 0.5em;
+    padding: 0.75em 1.25em 0.5em 1.25em;
+}
+
+footer {
+    color: white;
+}
+
+#text,
+#author {
+    transition: color 1s ease-in-out;
+}
+
+body,
+.button {
+    transition: background-color 1s ease-in-out;
+}
